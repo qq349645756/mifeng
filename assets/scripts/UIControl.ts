@@ -56,6 +56,7 @@ export class UIControl extends Component {
         this.btn_start.node.active = false;
         this.node.getChildByName("gameWin").active = false;
         this.node.getChildByName("gameLost").active = false;
+        
     }
 }
 
